@@ -1,0 +1,20 @@
+README
+Created Mon 06 Mar 2023 05:23:50 PM AKST
+Copyright (C) 2023 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Filelist
+========
+bbs/
+  United States Geological Survey Bulletins
+  ssh://git@github.com/marcilr/usgs-bulletins.git
+
+pps/
+  United States Geological Survey Profession Papers
+  ssh://git@github.com/marcilr/usgs-professional-papers.git
+
+manifest
+  Manifest file for use by resync script
+
+
+
