@@ -1,0 +1,51 @@
+# manifest
+# Created Mon 06 Mar 2023 05:11:08 PM AKST
+# by Raymond E. Marcil <marcilr@gmail.com>
+#
+# ================================================================== #
+# Manifest file for use by resync script
+#
+# Python script to automate the check of github hierarchical 
+# directories.  The github directories are named with 
+# dir-subdir-subsubdir format such that tracking the hierarchical 
+# directories is easily trackable.
+#
+# The base directory being checked out to must have a manifest file 
+# with src/dest mapping or a ~/.manifest file must exist with the 
+# src/dest mapping.
+#
+# A typically manifest file would contain:
+#
+#
+# ------------------------------------------------------------------
+# Source                                             Target
+# ------------------------------------------------------------------
+# https://github.com/marcilr/git-github.git          github
+# https://github.com/marcilr/git-github-syntax.git   github/syntax
+#
+# NOTE: The target value can be a relative or fully qualified path.
+#
+# Links
+# =====
+# Bulletin Abbreviation
+# Has BBS abbreviation
+# https://www.allacronyms.com/bulletin/abbreviated
+#
+# USGS Acronyms and Abbreviations
+# https://pubs.usgs.gov/ds/95/html/acronyms.htm
+#
+# USGS Journal abbreviation: Geological Survey professional paper
+# https://paperpile.com/n/geological-survey-professional-paper-abbreviation/
+# ================================================================== #
+
+
+
+# ------------------------------------------------------------------
+# Source                                                  Target
+# ------------------------------------------------------------------
+
+# United States Geological Survey Bulletins
+ssh://git@github.com/marcilr/usgs-bulletins.git             bbs
+
+# United States Geological Survey Profession Papers
+ssh://git@github.com/marcilr/usgs-professional-papers.git   pps
