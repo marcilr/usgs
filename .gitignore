@@ -1,0 +1,10 @@
+#.gitignore
+# Created Mon 06 Mar 2023 05:33:05 PM AKST
+# by Raymond E. Marcil <marcilr@gmail.com>
+#
+# Files for git to ignore
+#
+.gitignore
+
+bbs/
+pps/
